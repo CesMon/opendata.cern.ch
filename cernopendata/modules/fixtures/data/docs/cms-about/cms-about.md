@@ -41,7 +41,7 @@ The following are provided through this portal:
     * Definition of same objects is different in each analysis.
 * Some simulated datasets are provided in the MiniAODSIM format, which is the format used in physics analysis starting from Run2 (2015):
     * MiniAOD/MiniAODSIM is approximately one tenth of the size of AOD/AODSIM.
-    * The reduction is obtained including defining light-weight physics-object candidate representations, increasing transverse momentum thresholds for storing physics-object candidates, and reduced numerical precision when it is not required at the analysis level.
+    * The reduction is obtained defining light-weight physics-object candidate representations, increasing transverse momentum thresholds for storing physics-object candidates, and reduced numerical precision when it is not required at the analysis level.
     * More information on the MiniAOD format 
         * [Mini-AOD: A New Analysis Data Format for CMS G Petrucciani, A Rizzi, C Vuosalo on behalf of the CMS Collaboration](https://doi.org/10.1088/1742-6596/664/7/072052)
         * [MiniAOD analysis documentation](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMiniAOD2016)
