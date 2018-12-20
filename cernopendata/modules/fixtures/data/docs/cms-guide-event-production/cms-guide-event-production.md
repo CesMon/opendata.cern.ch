@@ -212,7 +212,7 @@ process.GlobalTag.globaltag = 'START42_V17B::All'
 
 ```
 cmsRun gensimDY.py > gensimDY.log 2>&1 &
-```
+``` 
 
 - Check the development of the job:
 
@@ -221,6 +221,42 @@ tailf gensimDY.log
 ```
 
 ##### Step 1: HLT
+
+- Execute the *cmsDriver* command as:
+
+```
+cmsDriver.py step1 --filein file:gensimDY.root --step=DIGI,L1,DIGI2RAW,HLT --datatier GEN-RAW --conditions=START42_V17B::All --fileout=hltDY.root --eventcontent RAWSIM --python_filename hltDY.py --number=10 --mc --no_exec
+```
+
+Note here that the ROOT file gensimDY, which was obtained in the last step, serves as input for step1.  
+We mpw process the event up to the high level trigger (HLT) simulation.  This command produces a file, *hltDY.py*, which needs to be modified
+like we did above.  I.e.,
+
+- open the *hltDY.py* config file with your favorite editor and change the line
+
+```
+process.GlobalTag.globaltag = 'START42_V17B::All'
+```
+
+with
+
+```
+process.GlobalTag.connect = cms.string('sqlite_file:/cvmfs/cms-opendata-conddb.cern.ch/START42_V17B.db')
+process.GlobalTag.globaltag = 'START42_V17B::All'
+```
+
+- Now, run the CMSSW executable in the background
+
+```
+cmsRun hltDY.py > hltDY.log 2>&1 &
+``` 
+
+- Check the development of the job:
+
+```
+tailf hltDY.log
+```
+
 
 
 ### Examples for CMS 2011 data
