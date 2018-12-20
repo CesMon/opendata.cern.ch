@@ -122,7 +122,7 @@ at the end
 
 ### Examples for CMS 2010 data
 
-##### How to produce Drell-Yan events using  
+#### How to produce MC Drell-Yan events from scratch
 
 The objective of this example is to show how to generate Drell-Yan events *from scratch* and go through the full chain of
 production in order to obtain *reconstructed* events suitable for analysis. 
@@ -157,6 +157,7 @@ Next, identify the configuration fragment that determines what physics event gen
 this example we will use the `DYToLL_M_50_TuneZ2_7TeV_pythia6_tauola_cff.py` fragment , which can be found in the [/Configuration/Generator/python](https://github.com/cms-sw/cmssw/tree/CMSSW_4_2_X/Configuration/Generator/python) area of CMSSW.  More information on the parameters within this
 fragment can be found in the [MC production overview](/docs/cms-mc-production-overview) documentation.
 
+##### Step 0: Generation and simulation
 
 - Execute the *cmsDriver* command as:
 
@@ -218,6 +219,9 @@ cmsRun gensimDY.py > gensimDY.log 2>&1 &
 ```
 tailf gensimDY.log
 ```
+
+##### Step 1: HLT
+
 
 ### Examples for CMS 2011 data
 
