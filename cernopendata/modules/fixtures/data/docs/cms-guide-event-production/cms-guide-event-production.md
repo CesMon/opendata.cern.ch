@@ -1,3 +1,5 @@
+[TOC]
+
 This is a guide on how to produce [CMSSW](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSSWFramework)
 python configuration files that can be used to perform the generation, simulation and/or reconstruction of [Monte 
 Carlo (MC)](/docs/cms-mc-production-overview) (or real) collision events.  These events can be used later to
@@ -18,7 +20,7 @@ The present directives are essentially a short summary of the more-detailed docu
 In this document the `cmsDriver` tool is first described.  This is the steering script, which is used to generate almost any configuration needed.  Then, simple examples for MC production and real data reconstruction are provided.
 
 
-### The cmsDriver tool
+## The cmsDriver tool
 
 The [cmsDriver](https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideCmsDriver) is a tool to create production-solid configuration files from minimal command line options.  Its code implementation, the [cmsDriver.py](https://github.com/cms-sw/cmssw/blob/master/Configuration/Applications/scripts/cmsDriver.py) script, is part of the CMSSW software.  
 
@@ -30,7 +32,7 @@ cmsDriver.py --help
 
 The options list is divided into two sections according to the user's level of knowledge: Options and Expert Options. Here, only the former, the "standar" Options, are listed:
 
-- `-s STEP, --step=STEP`: this option is useful to indicate what kind of steps the user wants to run and in which order. The most common possible values are: 
+- `-s STEP, --step=STEP`: this option is useful to indicate what kind of steps the user wants to run and in which order. The most common, possible values for *STEP* are: 
 
     - GEN : the generator plus the creation of GenParticles and GenJets
     - SIM : Geant4 simulation of the detector (energy deposits in the detector volumes)
@@ -69,6 +71,37 @@ The options list is divided into two sections according to the user's level of k
 at the end
 
 
+## Usage Examples
+
+In development
+
+### Examples for CMS 2010 data
+
+In development
+
+### MC production
+
+In development
+
+### How to include pileup simulation
+
+In development
+
+### Examples for CMS 2011 data
+
+In development
+
+### MC production
+
+In development
+
+### Raw data reconstruction
+
+In development
+
+## Additional examples
+
+In development
 
 
 
