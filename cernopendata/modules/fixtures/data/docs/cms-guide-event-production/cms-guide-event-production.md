@@ -21,7 +21,9 @@ In this document the general strategy for event processing is first described.  
 
 ## General strategy for event production
 
-Physics event generation and detector simulation are the earliest steps in the event processing chain that leads to producing MC samples suitable for physics analysis.  The reconstruction of, for instance, *real* RAW data is also understood as event production.  The strategy presented here is a general one and cosiders both cases.  Please take into account
+Physics event generation and detector simulation are the earliest steps in the event processing chain that leads to producing MC samples suitable for physics analysis.  The reconstruction of these events (and also possibly of real
+*RAW* data from the LHC) is also understood as part of event production.  The strategy presented here is a general one
+for processing events. Please take into account
  that many changes may occur with time, so the instructions bellow are just simple starting points. The given references, above or bellow, should be consulted in order to expand the required knowledge.
 
 The strategy is presented as a list of points (steps) that need to be considered:
@@ -42,7 +44,7 @@ The strategy is presented as a list of points (steps) that need to be considered
     in most cases a user will only need to know how find the right components, to compose them together, and to execute.
 - Since the `cmsDriver.py` tool is part of CMSSW, then the very first step would be to setup an appropiate
      CMSSW release area. Many examples are given bellow.
-- Then, one needs to simply execute the `cmsDriver.py` with the appropiate parameters (see examples
+- Then, one needs to simply execute the `cmsDriver.py` script with the appropiate parameters (see examples
     bellow).  Usually, at the 
     starting point, one of these parameters is always a *configuration input file* that uses one of the many 
     CMSSW interfaces to many physics event generators that are of interest to the Collaboration (e.g., 
@@ -51,14 +53,17 @@ The strategy is presented as a list of points (steps) that need to be considered
     [Tauola](https://tauolapp.web.cern.ch/tauolapp/), etc.)  This file
     itself has many *physics* parameters that can be tuned. For more details about
     this, one should check the [MC production overview](/docs/cms-mc-production-overview) documentation.
-- When it comes to the configuration input file, one needs to remember that the event processing usually happens
+- Identifying or creating a proper *initial* python configuration file  that defines the kind of process one is interested in is perhaps the most
+complicated part of the production chain.  Fortunately, CMSSW has pre-fabricated fragments which are originally located in the gen production areas (e.g., [/Configuration/Generator/python](https://github.com/cms-sw/cmssw/tree/CMSSW_4_2_X/Configuration/Generator/python) for 2010 production.).  
+For the majority of applications for producing MC samples the only difference will be this generator-level configuration fragment, while other conditions and steps will be standard. This is a great benefit of using `cmsDriver.py` for composing applications for MC production, as it will ensure that most current setups and conditions will be employed. 
+- Note that external generators can also be used by starting the production chain from an LHE file.
+- When it comes to the configuration input files, one needs to remember that the event processing usually happens
     in many steps.  This means that the `cmsDriver.py` might need to be used several times to acquire the configuration
     files that are needed for each step.  One step in the event processing chain may create event data (*edm::Event*) 
     that will serve as an input to the subsequent steps, thus it is important to properly order the 
     sequence of steps for execution. 
 - One also need to know that some software components may need 
-    other *helper* software, thus those services and modules also need to be present in the configuration file.  
-    However, most users will not need to worry about such details as in CMSSW there are utilities which 
+    other *helper* software, thus those services and modules also need to be present in the configuration file. However, most users will not need to worry about such details as in CMSSW there are utilities which 
     will ensure that all service software is included, and the sequence of steps in the event processing chain is correct.
 
 
@@ -113,42 +118,121 @@ The options list is divided into two sections according to the user's level of k
 at the end
 
 
-
-
-
-
-
 ## Usage Examples
-
-In development
 
 ### Examples for CMS 2010 data
 
-In development
+##### How to produce Drell-Yan events using  
 
-##### MC production
+The objective of this example is to show how to generate Drell-Yan events *from scratch* and go through the full chain of
+production in order to obtain *reconstructed* events suitable for analysis. 
 
-In development
+We will produce this events in three steps.  First we perform the simulation up to the *SIM* step (see above), then another intermedite step
+up to the HLT simulation, and then the reconstruction. 
 
-##### How to include pileup simulation
+To start, first create a [VM](http://opendata.cern.ch/record/250 "CMS Open Data Portal") from the CMS Open Data website 
+and open de slc5 CMS shell terminal available in the Desktop.
 
-In development
+Then follow these steps:
+
+- Create a CMSSW environment: 
+
+    ```
+    cmsrel CMSSW_4_2_8
+    ```
+
+- Change to the CMSSW_4_2_8/src/ directory:
+
+    ```
+    cd CMSSW_4_2_8/src/
+    ```
+
+- Initialize the CMSSW environment:
+
+  ```
+  cmsenv
+  ```
+
+Next, identify the configuration fragment that determines what physics event generator we wish to use and what topology we intend to generate.  In
+this example we will use the `DYToLL_M_50_TuneZ2_7TeV_pythia6_tauola_cff.py` fragment , which can be found in the [/Configuration/Generator/python](https://github.com/cms-sw/cmssw/tree/CMSSW_4_2_X/Configuration/Generator/python) area of CMSSW.  More information on the parameters within this
+fragment can be found in the [MC production overview](/docs/cms-mc-production-overview) documentation.
+
+
+- Execute the *cmsDriver* command as:
+
+```
+cmsDriver.py DYToLL_M_50_TuneZ2_7TeV_pythia6_tauola_cff.py --mc --eventcontent=RAWSIM --datatier=GEN-SIM --conditions=START42_V17B::All --step=GEN,SIM --python_filename=gensimDY.py --no_exec --number=10 --fileout=gensimDY.root
+```
+
+Note that we put the naked name of our input fragment (*DYToLL_M_50_TuneZ2_7TeV_pythia6_tauola_cff.py*) because the script will look, by default, in
+the */Configuration/Generator/python* area of the CMSSW release.  More information about the *--datatier* used can be found at the [CMS Workbook](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookDataFormats); that is the level of information we need/want in our ROOT output file.  
+
+Notice also that wee have used
+the `START43_V17B::All` conditions, because this is the snapshot of the conditions database we need.  More information about this can
+be found at the [CMS Guide for Conditions](docs/cms-guide-for-condition-database) documentation.  As noted above, for this first step, step 0, we
+only do the *GEN* and *SIM* parts of the whole chain.  We only generate 10 events for this example and choose the name of *gensimDY* for the output files
+in order to identify them correctly.
+
+After executing this command, we will get the *gensimDY.py* configuration file, which will be run with the *cmsRun* executable.  First, however, we need
+to do a few modifications.
+
+- Note that we need to be able to locate the database conditions as required by the *--conditions* switch.  Therefore, we need to make the following
+ symbolic links:
+
+```
+ln -sf /cvmfs/cms-opendata-conddb.cern.ch/START42_V17B START42_V17B
+
+ln -sf /cvmfs/cms-opendata-conddb.cern.ch/START42_V17B.db START42_V17B.db
+```
+
+- Make sure the `cms-opendata-conddb.cern.ch` directory has actually expanded in your VM.  One way of doing this is executing:
+
+```
+ls -l
+ls -l /cvmfs/
+```
+
+You should now see the `cms-opendata-conddb.cern.ch` link in the `/cvmfs` area.
+
+- Open the *gensimDY.py* config file with your favorite editor and change the line
+
+```
+process.GlobalTag.globaltag = 'START42_V17B::All'
+```
+
+with
+
+```
+process.GlobalTag.connect = cms.string('sqlite_file:/cvmfs/cms-opendata-conddb.cern.ch/START42_V17B.db')
+process.GlobalTag.globaltag = 'START42_V17B::All'
+```
+
+- Run the CMSSW executable in the background
+
+```
+cmsRun gensimDY.py > gensimDY.log 2>&1 &
+```
+
+- Check the development of the job:
+
+```
+tailf gensimDY.log
+```
 
 ### Examples for CMS 2011 data
 
-In development
 
 ##### MC production
 
-In development
+##### How to include pileup simulation
 
 ##### Raw data reconstruction
 
-In development
+
 
 ## Additional examples
 
-In development
+
 
 
 
