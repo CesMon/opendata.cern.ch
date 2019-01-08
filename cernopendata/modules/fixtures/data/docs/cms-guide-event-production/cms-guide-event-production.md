@@ -202,8 +202,8 @@ process.GlobalTag.globaltag = 'START53_LV6A1::All'
 with
 
 ```
-process.GlobalTag.connect = cms.string('sqlite_file:/cvmfs/cms-opendata-conddb.cern.ch//START53_LV6A1.db')
-process.GlobalTag.globaltag = '/START53_LV6A1::All'
+process.GlobalTag.connect = cms.string('sqlite_file:/cvmfs/cms-opendata-conddb.cern.ch/START53_LV6A1.db')
+process.GlobalTag.globaltag = 'START53_LV6A1::All'
 ```
 
 - Run the CMSSW executable in the background
@@ -228,7 +228,7 @@ tailf gensimDY.log
 cmsDriver.py step1 --filein file:gensimDY.root --step=DIGI,L1,DIGI2RAW,HLT:2011 --datatier GEN-RAW --conditions=START53_LV6A1::All --fileout=hltDY.root --eventcontent RAWSIM --python_filename hltDY.py --number=10 --mc --no_exec
 ```
 
-Note here that the ROOT file gensimDY, which was obtained in the last step (step 0), serves as input for step1.  
+Note here that the ROOT file *gensimDY.root*, which was obtained in the last step (step 0), serves as input for step1.  
 We now process the event up to the high level trigger (HLT) simulation.  This command produces a file, *hltDY.py*, which needs to be modified
 like we did above.  I.e.,
 
@@ -255,6 +255,44 @@ cmsRun hltDY.py > hltDY.log 2>&1 &
 
 ```
 tailf hltDY.log
+```
+
+
+##### step 2: RECO (AOD)
+
+- Execute the *cmsDriver* command as:
+
+```
+cmsDriver.py step2 --filein file:hltDY.root --step RAW2DIGI,L1Reco,RECO,VALIDATION:validation_prod,DQM:DQMOfflinePOGMC --datatier AODSIM,DQM --conditions START53_LV6::All --fileout=recoDY.root --mc --eventcontent AODSIM,DQM  --python_filename recoDY.py --no_exec -n 10 
+```
+
+Note here that the ROOT file *hltDY.root*, which was obtained in the last step (step 1), serves as input for step2.  
+We now process the event up to the final step: the reconstruction (RECO).  This command produces a file, *recoDY.py*, which needs to be modified
+like we did above.  I.e.,
+
+- open the *recoDY.py* config file with your favorite text editor and change the line
+
+```
+process.GlobalTag.globaltag = 'START53_LV6A1::All'
+```
+
+with
+
+```
+process.GlobalTag.connect = cms.string('sqlite_file:/cvmfs/cms-opendata-conddb.cern.ch/START53_LV6A1.db')
+process.GlobalTag.globaltag = 'START53_LV6A1::All'
+```
+
+- Now, run the CMSSW executable in the background
+
+```
+cmsRun recoDY.py > recoDY.log 2>&1 &
+``` 
+
+- Check the development of the job:
+
+```
+tailf recoDY.log
 ```
 
 
@@ -371,7 +409,7 @@ tailf gensimDY.log
 cmsDriver.py step1 --filein file:gensimDY.root --step=DIGI,L1,DIGI2RAW,HLT --datatier GEN-RAW --conditions=START42_V17B::All --fileout=hltDY.root --eventcontent RAWSIM --python_filename hltDY.py --number=10 --mc --no_exec
 ```
 
-Note here that the ROOT file gensimDY, which was obtained in the last step (step 0), serves as input for step1.  
+Note here that the ROOT file *gensimDY.root*, which was obtained in the last step (step 0), serves as input for step1.  
 We now process the event up to the high level trigger (HLT) simulation.  This command produces a file, *hltDY.py*, which needs to be modified
 like we did above.  I.e.,
 
