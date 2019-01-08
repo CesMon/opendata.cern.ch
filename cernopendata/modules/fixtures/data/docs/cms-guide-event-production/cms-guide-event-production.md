@@ -128,8 +128,7 @@ at the end
 We will produce these events in three steps.  First we perform the simulation up to the *SIM* step, then another intermedite step
 up to the HLT simulation, and then the reconstruction. 
 
-To start, first create a [VM](http://opendata.cern.ch/record/250 "CMS Open Data Portal") from the CMS Open Data website 
-and open de slc5 CMS shell terminal available in the Desktop.
+To start, first create a [VM](http://opendata.cern.ch/record/252 "CMS Open Data Portal") from the CMS Open Data website.
 
 Then follow these steps:
 
@@ -294,6 +293,9 @@ cmsRun recoDY.py > recoDY.log 2>&1 &
 ```
 tailf recoDY.log
 ```
+
+The resulting ROOT file, *recoDY.root*, is in the same format as 
+the MC and Data released by CMS.
 
 
 <!-- #### How to include pileup simulation
