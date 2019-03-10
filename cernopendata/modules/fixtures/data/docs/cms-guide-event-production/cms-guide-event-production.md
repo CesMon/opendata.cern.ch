@@ -4,7 +4,7 @@ This is a guide on how to produce [CMSSW](https://twiki.cern.ch/twiki/bin/view/C
 python configuration files that can be used to perform the generation, simulation and/or reconstruction of [Monte 
 Carlo (MC)](/docs/cms-mc-production-overview) (or real) collision events.  These events can be used later to
 perform physics analyses.  Take into account, however, that a great amount of
-MC samples have been released publicly by the CMS Collaboration.
+MC samples have been released as Open Data by the CMS Collaboration.
 
 The figure below depicts a simplified scheme of 
 the different stages for event generation in CMS. The simple tools and examples presented
