@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "Preprocessed data for the two-lepton/four-lepton analysis example of CMS 2011 open data"
+      "description": "<p>Preprocessed data for the two-lepton/four-lepton analysis example of CMS 2011 open data</p> <p>These files contain only the muon and electron collections, other physics object collections have been discarded. No selection or quality criteria have yet been applied, it has to be done in the subsequent analysis step.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -12,7 +12,9 @@
     "collections": [
       "CMS-Derived-Datasets"
     ],
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -48,9 +50,6 @@
           "recid": "233"
         }
       ]
-    },
-    "note": {
-      "description": "These files contain only the muon and electron collections, other physics object collections have been discarded. No selection or quality criteria have yet been applied, it has to be done in the subsequent analysis step."
     },
     "publisher": "CERN Open Data Portal",
     "recid": "230",
@@ -99,7 +98,7 @@
   },
   {
     "abstract": {
-      "description": "Data preprocessed for the two-lepton/four-lepton analysis example of CMS 2011 open data"
+      "description": "<p>Data preprocessed for the two-lepton/four-lepton analysis example of CMS 2011 open data</p> <p>These files contain only the muon and electron collections, other physics object collections have been discarded. No selection or quality criteria have yet been applied, it has to be done in the subsequent analysis step.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -110,7 +109,9 @@
     "collections": [
       "CMS-Derived-Datasets"
     ],
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -146,9 +147,6 @@
           "recid": "233"
         }
       ]
-    },
-    "note": {
-      "description": "These files contain only the muon and electron collections, other physics object collections have been discarded. No selection or quality criteria have yet been applied, it has to be done in the subsequent analysis step."
     },
     "publisher": "CERN Open Data Portal",
     "recid": "231",

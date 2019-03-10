@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "Sample event set from /BTag/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /BTag/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -16,7 +16,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -40,9 +42,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "614",
@@ -80,7 +79,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /DoubleElectron/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /DoubleElectron/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -95,7 +94,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -119,9 +120,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "615",
@@ -159,7 +157,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /DoubleMu/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /DoubleMu/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -174,7 +172,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -198,9 +198,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "616",
@@ -238,7 +235,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /ElectronHad/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /ElectronHad/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -253,7 +250,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -277,9 +276,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "617",
@@ -317,7 +313,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /HT/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /HT/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -332,7 +328,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -356,9 +354,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "618",
@@ -396,7 +391,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Jet/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Jet/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -411,7 +406,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -435,9 +432,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "619",
@@ -475,7 +469,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MET/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MET/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -490,7 +484,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -514,9 +510,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "620",
@@ -554,7 +547,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /METBTag/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /METBTag/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -569,7 +562,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -593,9 +588,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "621",
@@ -633,7 +625,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MinimumBias/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MinimumBias/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -648,7 +640,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -672,9 +666,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "622",
@@ -712,7 +703,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuEG/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuEG/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -727,7 +718,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -751,9 +744,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "623",
@@ -791,7 +781,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuHad/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuHad/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -806,7 +796,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -830,9 +822,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "624",
@@ -870,7 +859,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MultiJet/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MultiJet/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -885,7 +874,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -909,9 +900,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "625",
@@ -949,7 +937,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /MuOnia/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /MuOnia/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -964,7 +952,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -988,9 +978,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "626",
@@ -1028,7 +1015,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Photon/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Photon/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1043,7 +1030,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1067,9 +1056,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "627",
@@ -1107,7 +1093,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /PhotonHad/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /PhotonHad/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1122,7 +1108,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1146,9 +1134,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "628",
@@ -1186,7 +1171,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /SingleElectron/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /SingleElectron/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1201,7 +1186,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1225,9 +1212,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "629",
@@ -1265,7 +1249,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /SingleMu/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /SingleMu/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1280,7 +1264,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1304,9 +1290,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "630",
@@ -1344,7 +1327,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /Tau/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /Tau/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1359,7 +1342,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1383,9 +1368,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "631",
@@ -1423,7 +1405,7 @@
   },
   {
     "abstract": {
-      "description": "Sample event set from /TauPlusX/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display"
+      "description": "<p>Sample event set from /TauPlusX/Run2011A-12Oct2013-v1/AOD primary dataset in json format readable from the browser-based 3d event display</p> <p>No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -1438,7 +1420,9 @@
       "energy": "7TeV",
       "type": "pp"
     },
-    "date_created": "2011",
+    "date_created": [
+      "2011"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1462,9 +1446,6 @@
           "recid": "550"
         }
       ]
-    },
-    "note": {
-      "description": "No selection or quality criteria have been applied on the individual physics objects, apart from accepting only the validated runs"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "632",

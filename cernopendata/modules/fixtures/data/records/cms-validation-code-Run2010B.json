@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": " <p>This code for validation and benchmarking of the Mu and MuMonitor datasets is set up at Research level, i.e. it requires university-student-level programming experience.\n\t        Minimal acquaintance with Linux and the ROOT analysis package (<a href=\"https://root.cern.ch/\">https://root.cern.ch/</a>) as well as a basic text editor is needed. Note that the code in this category is not meant to be a pedagogical example but is a validation tool. </p>"
+      "description": " <p>This code for validation and benchmarking of the Mu and MuMonitor datasets is set up at Research level, i.e. it requires university-student-level programming experience.\n\t        Minimal acquaintance with Linux and the ROOT analysis package (<a href=\"https://root.cern.ch/\">https://root.cern.ch/</a>) as well as a basic text editor is needed. Note that the code in this category is not meant to be a pedagogical example but is a validation tool. </p> <p>The default output of the code below is a ROOT file Mu00val.root</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -21,7 +21,9 @@
     "collections": [
       "CMS-Validation-Utilities"
     ],
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -105,9 +107,6 @@
     "license": {
       "attribution": "GNU General Public License (GPL) version 3"
     },
-    "note": {
-      "description": "The default output of the code below is a ROOT file Mu00val.root"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "460",
     "run_period": [
@@ -150,7 +149,7 @@
   },
   {
     "abstract": {
-      "description": " <p>This code for validation and benchmarking of the Commissioning dataset is set up at Research level, i.e. it requires university-student-level programming experience.\n\t        Minimal acquaintance with Linux and the ROOT analysis package (<a href=\"https://root.cern.ch/\">https://root.cern.ch/</a>) as well as a basic text editor is needed. Note that the code in this category is not meant to be a pedagogical example but is a validation tool. </p>"
+      "description": " <p>This code for validation and benchmarking of the Commissioning dataset is set up at Research level, i.e. it requires university-student-level programming experience.\n\t        Minimal acquaintance with Linux and the ROOT analysis package (<a href=\"https://root.cern.ch/\">https://root.cern.ch/</a>) as well as a basic text editor is needed. Note that the code in this category is not meant to be a pedagogical example but is a validation tool. </p> <p>The default output of the code below is a ROOT file Mu00val.root</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -170,7 +169,9 @@
     "collections": [
       "CMS-Validation-Utilities"
     ],
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -239,9 +240,6 @@
     "license": {
       "attribution": "GNU General Public License (GPL) version 3"
     },
-    "note": {
-      "description": "The default output of the code below is a ROOT file Mu00val.root"
-    },
     "publisher": "CERN Open Data Portal",
     "recid": "461",
     "run_period": [
@@ -281,7 +279,7 @@
   },
   {
     "abstract": {
-      "description": " <p>This code for validation and benchmarking of the MinimumBias dataset is set up at Research level, i.e. it requires university-student-level programming experience.\n\t        Minimal acquaintance with Linux and the ROOT analysis package (<a href=\"https://root.cern.ch/\">https://root.cern.ch/</a>) as well as a basic text editor is needed. Note that the code in this category is not meant to be a pedagogical example but is a validation tool. </p>"
+      "description": " <p>This code for validation and benchmarking of the MinimumBias dataset is set up at Research level, i.e. it requires university-student-level programming experience.\n\t        Minimal acquaintance with Linux and the ROOT analysis package (<a href=\"https://root.cern.ch/\">https://root.cern.ch/</a>) as well as a basic text editor is needed. Note that the code in this category is not meant to be a pedagogical example but is a validation tool. </p> <p>The default output of the code below is a ROOT file Mu00val.root</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -301,7 +299,9 @@
     "collections": [
       "CMS-Validation-Utilities"
     ],
-    "date_created": "2010",
+    "date_created": [
+      "2010"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -384,9 +384,6 @@
     ],
     "license": {
       "attribution": "GNU General Public License (GPL) version 3"
-    },
-    "note": {
-      "description": "The default output of the code below is a ROOT file Mu00val.root"
     },
     "publisher": "CERN Open Data Portal",
     "recid": "462",

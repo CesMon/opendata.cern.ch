@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -14,7 +14,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -38,9 +40,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3800",
@@ -77,7 +76,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -90,7 +89,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -114,9 +115,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3801",
@@ -153,7 +151,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -166,7 +164,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -190,9 +190,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3802",
@@ -229,7 +226,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -242,7 +239,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -266,9 +265,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3803",
@@ -305,7 +301,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -318,7 +314,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -342,9 +340,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3804",
@@ -381,7 +376,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -394,7 +389,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -418,9 +415,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3805",
@@ -457,7 +451,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -470,7 +464,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -494,9 +490,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3806",
@@ -533,7 +526,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -546,7 +539,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -570,9 +565,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3807",
@@ -609,7 +601,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -622,7 +614,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -646,9 +640,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3808",
@@ -685,7 +676,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -698,7 +689,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -722,9 +715,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3809",
@@ -761,7 +751,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -774,7 +764,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -798,9 +790,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3810",
@@ -837,7 +826,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -850,7 +839,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -874,9 +865,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3811",
@@ -913,7 +901,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -926,7 +914,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -950,9 +940,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3812",
@@ -989,7 +976,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1002,7 +989,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1026,9 +1015,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3813",
@@ -1065,7 +1051,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1078,7 +1064,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1102,9 +1090,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3814",
@@ -1141,7 +1126,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1154,7 +1139,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1178,9 +1165,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3815",
@@ -1217,7 +1201,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1230,7 +1214,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1254,9 +1240,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3816",
@@ -1293,7 +1276,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1306,7 +1289,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1330,9 +1315,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3817",
@@ -1369,7 +1351,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1382,7 +1364,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1406,9 +1390,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3818",
@@ -1445,7 +1426,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1458,7 +1439,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1482,9 +1465,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3819",
@@ -1521,7 +1501,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1534,7 +1514,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1558,9 +1540,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3820",
@@ -1597,7 +1576,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1610,7 +1589,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1634,9 +1615,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3821",
@@ -1673,7 +1651,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1686,7 +1664,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1710,9 +1690,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3822",
@@ -1749,7 +1726,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1762,7 +1739,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1786,9 +1765,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3823",
@@ -1825,7 +1801,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1838,7 +1814,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1862,9 +1840,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3824",
@@ -1901,7 +1876,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1914,7 +1889,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -1938,9 +1915,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3825",
@@ -1977,7 +1951,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -1990,7 +1964,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2014,9 +1990,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3826",
@@ -2053,7 +2026,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2066,7 +2039,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2090,9 +2065,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3827",
@@ -2129,7 +2101,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2142,7 +2114,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2166,9 +2140,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3828",
@@ -2205,7 +2176,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2218,7 +2189,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2242,9 +2215,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3829",
@@ -2281,7 +2251,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2294,7 +2264,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2318,9 +2290,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3830",
@@ -2357,7 +2326,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2370,7 +2339,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2394,9 +2365,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3831",
@@ -2433,7 +2401,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2446,7 +2414,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2470,9 +2440,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3832",
@@ -2509,7 +2476,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2522,7 +2489,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2546,9 +2515,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3833",
@@ -2585,7 +2551,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2598,7 +2564,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2622,9 +2590,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3834",
@@ -2661,7 +2626,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2674,7 +2639,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2698,9 +2665,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3835",
@@ -2737,7 +2701,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2750,7 +2714,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2774,9 +2740,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3836",
@@ -2813,7 +2776,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2826,7 +2789,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2850,9 +2815,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3837",
@@ -2889,7 +2851,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2902,7 +2864,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -2926,9 +2890,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3838",
@@ -2965,7 +2926,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -2978,7 +2939,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -3002,9 +2965,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3839",
@@ -3041,7 +3001,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -3054,7 +3014,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -3078,9 +3040,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3840",
@@ -3117,7 +3076,7 @@
   },
   {
     "abstract": {
-      "description": "The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed."
+      "description": "<p>The ATLAS open data dataset is comprised of real data recorded with the ATLAS detector in 2012 and matching simulated data.\n      Both real and simulated data is subjected to a loose event preselection to reduce processing time by reducing the overall number of events that have to be analysed.</p> <p>These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      </p>"
     },
     "accelerator": "CERN-LHC",
     "collaboration": {
@@ -3130,7 +3089,9 @@
       "energy": "8TeV",
       "type": "pp"
     },
-    "date_created": "2012",
+    "date_created": [
+      "2012"
+    ],
     "date_published": "2016",
     "distribution": {
       "formats": [
@@ -3154,9 +3115,6 @@
     },
     "methodology": {
       "description": "The preselection consists of a set of object selection criteria and a subsequent event selection acting on these preselected objects.\n      The simulated (MonteCarlo) datasets used in the data release are shown where filtered using the same preselection as for real data.\n      The set contains samples for several Standard Model (SM) processes for several important backgrounds and some signal samples for SM and beyond SM processes."
-    },
-    "note": {
-      "description": "These simulated datasets correspond to the data collected by the ATLAS experiment in 2012.\n      "
     },
     "publisher": "CERN Open Data Portal",
     "recid": "3841",

@@ -174,8 +174,11 @@
       "type": "array"
     },
     "date_created": {
-      "description": "The year the resource was created or the data-taking year for datasets",
-      "type": "string"
+      "items": {
+        "description": "The data-taking year during which the collision data or for which the simulated data, software and other assets were produced",
+        "type": "string"
+      },
+      "type": "array"
     },
     "date_published": {
       "description": "The year of publication on the portal",
@@ -296,39 +299,6 @@
               },
               "title": {
                 "description": "The title for the link",
-                "type": "string"
-              },
-              "url": {
-                "description": "The URL for the link associated with this record (for an external URL)",
-                "type": "string"
-              }
-            },
-            "type": "object"
-          },
-          "type": "array"
-        }
-      },
-      "type": "object"
-    },
-    "note": {
-      "properties": {
-        "description": {
-          "description": "Any other notes of interest for the given resource",
-          "type": "string"
-        },
-        "links": {
-          "items": {
-            "properties": {
-              "description": {
-                "description": "A brief description of the link associated with the notes",
-                "type": "string"
-              },
-              "recid": {
-                "description": "If the link is to another CERN Open Data portal record, the record ID of that record",
-                "type": "string"
-              },
-              "title": {
-                "description": "The title of the link",
                 "type": "string"
               },
               "url": {
